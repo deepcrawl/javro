@@ -1,22 +1,21 @@
 module.exports = {
-  plugins: [ 'jest', 'header' ],
+  plugins: ["jest", "header"],
   env: {
     es6: true,
     node: true,
-    'jest/globals': true,
+    "jest/globals": true,
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ["airbnb-base"],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
   },
   rules: {
-    "header/header": [2, "./.eslint.license.js"]
+    "header/header": [2, "./.eslint.license.js"],
   },
+  eslintIgnore: ["src/javro.d.ts"],
 };
