@@ -1,6 +1,6 @@
 {
   "name": "javro",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Converts JSON Schema definitions to Avro Schema definitions",
   "main": "./src/javro.js",
   "types": "./src/javro.d.ts",
